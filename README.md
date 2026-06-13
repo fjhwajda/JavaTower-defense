@@ -1,18 +1,43 @@
+# Tower Defense Java Project
+
+Welcome to my Tower Defense learning project! This repository documents my journey in building a game from scratch using Java, focusing on game logic, object-oriented design, and GUI development with Swing.
+
+## Project Structure
+
+The project follows a modular structure to ensure clean code and separation of concerns:
+
+- `src/`: Main source code directory.
+  - `main/java/`: Contains the actual Java classes.
+    - `engine/`: Handles the game loop and physics/calculations.
+    - `entities/`: Base classes for Enemies and Towers.
+    - `gui/`: View classes (Swing/JFrame).
+    - `model/`: Data structures like the game map and player stats.
+- `lib/`: External dependencies.
+- `resources/`: Assets such as images or sound files.
+
 ## Getting Started
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+### Prerequisites
+- Java Development Kit (JDK) 11 or higher.
+- An IDE (VS Code with the "Extension Pack for Java" is recommended).
 
-## Folder Structure
+### How to Run
+1. Clone this repository to your local machine.
+2. Open the project folder in VS Code.
+3. Locate `App.java` inside `src/main/java/com/game/`.
+4. Run the file using the "Run" button provided by the Java extension.
 
-The workspace contains two folders by default, where:
+## Learning Goals
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+This project serves as a practical implementation of several core concepts:
+- **Game Loop:** Implementing a constant update cycle.
+- **MVC Architecture:** Separating Model (logic), View (graphics), and Controller (input).
+- **State Machines:** Managing game states like Menu, Playing, and GameOver.
+- **Git Workflow:** Version control best practices.
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
+## Roadmap
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
-
-## Dependency Management
-
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+- [ ] Implement game grid and path visualization.
+- [ ] Create basic enemy pathfinding.
+- [ ] Add interactive tower placement via `MouseListener`.
+- [ ] Implement distance-based shooting logic.
