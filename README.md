@@ -37,7 +37,7 @@ This project serves as a practical implementation of several core concepts:
 
 ## Roadmap
 
-- [ ] Implement game grid and path visualization.
-- [ ] Create basic enemy pathfinding.
-- [ ] Add interactive tower placement via `MouseListener`.
-- [ ] Implement distance-based shooting logic.
+- [X] Implement game grid and path visualization.
+- [X] Create basic enemy pathfinding.
+- [X] Add interactive tower placement via `MouseListener`.
+- [X] Implement distance-based shooting logic.
